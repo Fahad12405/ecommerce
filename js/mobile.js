@@ -21,7 +21,7 @@ const fetchMobilePhones = (data) => {
       </div>
       <div class="card-content">
           <span class="card-title activator black-text text-darken-1"><h6>${mobilePhones.name}</h6><i class="material-icons three-dots right">more_vert</i></span>
-           <h6>₹. ${mobilePhones.price}</h6>
+           <h6>Rs. ${mobilePhones.price}</h6>
           <button class="btn btn-add-to-cart" type="submit" name="action" onClick="addToCart('${mobilePhones.name}','${mobilePhones.price}', '${mobilePhones.image}')">Add to cart
           <i class="material-icons right">shopping_cart</i>
           </button>
